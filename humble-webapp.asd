@@ -3,7 +3,7 @@
   :version "0.0.1"
   :author "Jacek Podkanski"
   :licence "GPLv3"
-  :depends-on (:hunchentoot :cl-who :parenscript :cl-fad)
+  :depends-on (:hunchentoot :humble-framework :cl-who :parenscript :cl-fad)
   :components ((:module "src" 
 			:components ((:file "packages")
 				     (:file "humble-webapp"))))
